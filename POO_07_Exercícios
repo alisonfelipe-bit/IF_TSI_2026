@@ -1,0 +1,24 @@
+print("*-----Carro-----*")
+class Carro:
+    cor = "Azul"
+    placa = "123456"
+
+    def exibir_carro(self):
+        print(self.placa)
+        print(self.cor)
+
+carro = Carro()
+carro.exibir_carro()
+
+print("*-----Cachorro-----*")
+class Cachorro:
+    cor = "Preto"
+    idade = "3"
+    nome = "lulu"
+
+    def exibir_cachorro(self):
+        print(self.cor)
+        print(self.nome)
+
+cachorro = Cachorro()
+cachorro.exibir_cachorro()
