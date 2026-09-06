@@ -2,10 +2,12 @@ print("*-----Carro-----*")
 class Carro:
     cor = "Azul"
     placa = "123456"
+    marca = "Nissan"
 
     def exibir_carro(self):
         print(self.placa)
         print(self.cor)
+        print(self.marca)
 
 carro = Carro()
 carro.exibir_carro()
